@@ -1,0 +1,139 @@
+{
+  "posts": [
+    {
+      "title": "Bnaf, LLC",
+      "location": "Austin",
+      "likes": 4,
+      "id": 55
+    },
+    {
+      "title": "Boulder Beer Co",
+      "location": "Boulder",
+      "likes": 20,
+      "id": 56
+    },
+    {
+      "title": "Clermont Brewing Company",
+      "location": "Clermont",
+      "likes": 9,
+      "id": 57
+    },
+    {
+      "title": "Dimensional Brewing Co.",
+      "location": "Dubuque",
+      "likes": 0,
+      "id": 58
+    },
+    {
+      "title": "Dixie Brewing Co Inc.",
+      "location": "New Orleans",
+      "likes": 8,
+      "id": 59
+    },
+    {
+      "title": "Epidemic Ales",
+      "location": "Concord",
+      "likes": 5,
+      "id": 60
+    },
+    {
+      "title": "King Fox Brewery",
+      "location": "Hialeah",
+      "likes": 0,
+      "id": 61
+    },
+    {
+      "title": "La Funke Brewing",
+      "location": "Bulverde",
+      "likes": 0,
+      "id": 62
+    },
+    {
+      "title": "Lincoln Avenue Brewery",
+      "location": "Pittsburgh",
+      "likes": 0,
+      "id": 63
+    },
+    {
+      "title": "Mallory Brewing",
+      "location": "Houston",
+      "likes": 0,
+      "id": 64
+    },
+    {
+      "title": "Long Way Brewing",
+      "location": "Radford",
+      "likes": 0,
+      "id": 65
+    },
+    {
+      "title": "Mobtown Brewing Co",
+      "location": "Baltimore",
+      "likes": 0,
+      "id": 66
+    },
+    {
+      "title": "Northwoods Brewing Co",
+      "location": "Northwood",
+      "likes": 0,
+      "id": 67
+    },
+    {
+      "title": "Mosaic Brewing",
+      "location": "Lancaster",
+      "likes": 0,
+      "id": 68
+    },
+    {
+      "title": "Goose Island Philadelphia",
+      "location": "Philadelphia",
+      "likes": 0,
+      "id": 69
+    },
+    {
+      "title": "GRITS Brewing",
+      "location": "Chamblee",
+      "likes": 0,
+      "id": 70
+    },
+    {
+      "title": "Ironbark Brewery",
+      "location": "Jackson",
+      "likes": 0,
+      "id": 71
+    },
+    {
+      "title": "Snow Belt Brew",
+      "location": "Chardon",
+      "likes": 8,
+      "id": 72
+    },
+    {
+      "title": "Good Brewz",
+      "location": "Asheville",
+      "likes": 0,
+      "id": 73
+    },
+    {
+      "title": "Cold Brew",
+      "location": "Anchorage",
+      "likes": 0,
+      "id": 74
+    }
+  ],
+  "comments": [
+    {
+      "comments": "They have great beer!",
+      "postId": "55",
+      "id": 1
+    },
+    {
+      "comments": "Hello!",
+      "postId": "55",
+      "id": 2
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
