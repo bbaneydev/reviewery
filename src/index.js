@@ -11,7 +11,7 @@ const error = document.createElement('h1')
 search.append(searchBreak, searchForm)
 cardContainer.append(search)
 
-const URL = 'http://localhost:3000/posts'
+const URL = 'https://reviewery-backend.herokuapp.com/posts'
 
 
 fetch(URL)
@@ -94,7 +94,7 @@ function renderCard(brewery) {
     likeButton.addEventListener('click', () => {
         like.innerText = `Total Likes: ${++brewery.likes}`
 
-        fetch(`http://localhost:3000/posts/${brewery.id}`, {
+        fetch(`https://reviewery-backend.herokuapp.com/posts/${brewery.id}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type' : 'application/json'
@@ -111,7 +111,7 @@ function renderCard(brewery) {
     dislikeButton.addEventListener('click', () => {
         like.innerText = `Total Likes: ${--brewery.likes}`
 
-        fetch(`http://localhost:3000/posts/${brewery.id}`, {
+        fetch(`https://reviewery-backend.herokuapp.com/posts/${brewery.id}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type' : 'application/json'
@@ -130,7 +130,7 @@ function renderCard(brewery) {
         p.innerText = text.value
         form.append(p)
         form.reset()
-        fetch(`http://localhost:3000/posts/${brewery.id}/comments`, {
+        fetch(`https://reviewery-backend.herokuapp.com/posts/${brewery.id}/comments`, {
             method: 'POST',
             headers: {
                 'Content-Type' : 'application/json'
@@ -157,7 +157,7 @@ function renderCard(brewery) {
         }
     })
 
-    fetch(`http://localhost:3000/posts/${brewery.id}/comments`)
+    fetch(`https://reviewery-backend.herokuapp.com/posts/${brewery.id}/comments`)
     .then(res => res.json())
     .then(comments => comments.forEach(renderComments))
 

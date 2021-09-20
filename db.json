@@ -3,7 +3,7 @@
     {
       "title": "Bnaf, LLC",
       "location": "Austin",
-      "likes": 4,
+      "likes": 11,
       "id": 55
     },
     {
@@ -15,7 +15,7 @@
     {
       "title": "Clermont Brewing Company",
       "location": "Clermont",
-      "likes": 9,
+      "likes": 15,
       "id": 57
     },
     {
@@ -131,6 +131,16 @@
       "comments": "Hello!",
       "postId": "55",
       "id": 2
+    },
+    {
+      "comments": "I love this place!",
+      "postId": "55",
+      "id": 3
+    },
+    {
+      "comments": "I love this place!",
+      "postId": "57",
+      "id": 4
     }
   ],
   "profile": {
